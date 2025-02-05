@@ -24,10 +24,10 @@ const Hero = () => {
           <span className="text-[#FF9F0D]">Th</span>e Art of Speed Food Quality
         </h2>
         <p className="text-[12px] md:w-[418px] w-full sm:text-[14px] md:text-[16px] lg:text-[18px] font-inter mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed pharetra dictum neque massa congue.
+        Our dishes are made with fresh ingredients, prioritizing your health and well-being without compromising on taste.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start mt-6">
-          <Link href="/menu">
+          <Link href="/pages/menu">
             <button className="bg-[#FF9F0D] text-white w-[100px] sm:w-[130px] md:w-[160px] lg:w-[190px] h-[30px] sm:h-[40px] md:h-[50px] lg:h-[60px] rounded-[40px] hover:bg-yellow-800">
               See More
             </button>

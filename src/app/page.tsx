@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "./components/hero";
 import Hero1 from "./components/hero1";
 import Hero4 from "./components/hero4";
-import FromMenu from "./components/frommenu";
+
 import Meetchef from "./components/meetchef";
 import Testimonials from "./components/testimonials";
 import Hero5 from "./components/hero5";
@@ -15,9 +15,9 @@ const page = () => {
       <Hero />
       <Hero1 />
       <FoodCategory1 />
-      <Hero4 />
-      <FromMenu />
+
       <Meetchef />
+      <Hero4 />
       <Testimonials />
       <Hero5 />
       <Hero6 />

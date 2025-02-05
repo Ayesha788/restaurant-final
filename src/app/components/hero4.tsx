@@ -1,5 +1,5 @@
 import Image from "next/image";
-import menu from "../menu/menu1";
+import menu from "../pages/menu/menu1";
 const Menu4 = () => {
   return (
     <div className="w-full bg-[#0D0D0D] text-[#ffffff] max-w-[1920px] mb-[10rem] pt-[4rem] md:mb-0 sm:mb-0    h-[468px]">

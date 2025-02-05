@@ -6,23 +6,23 @@ const Hero1 = () => {
   return (
     <div className="flex flex-col pb-56 sm:flex-row h-[562px] px-4 sm:px-8 lg:px-16  gap-8  md:max-w-[1920px] w-full  bg-black">
       <div className="text-black md:max-w-1/2 w-full md:mb-16 gap-4 pr-8  md:my-0 my-[40px] pl-0 md:mt-[110px]">
-        <p className="md:w-[106px] md:h-[40px] md:text-2xl font-greatvibes font-normal text-3xl pl-5 md:pl-[50px] leading-[40px] text-[#FF9F0D]">About us</p>
+        <p className="md:w-[106px] md:h-[40px] md:text-2xl font-greatvibes font-normal text-3xl pl-5 md:pl-[50px] leading-[40px] text-[#FF9F0D] whitespace-nowrap">About us</p>
         <h2 className="font-bold font-helvetica md:text-[40px] text-[30px] pl-5 md:pl-[50px] md:w-[446px] leading-[56px] text-[#FFFFFF]">
           {" "}<span className="text-[#FF9F0D]">We</span> Create the best foody product
         </h2>
         <p className='text-[#FFFFFF] font-inter font-normal md:text-[16px] md:leading-[24px] w-[320px] pl-5 md:pl-[59px] px-5 md:w-[526px] md:my-[20px]'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
+        Welcome to our food haven, where we proudly serve halal, healthy, and freshly prepared fast food to satisfy your cravings. Our commitment to quality ensures every bite is packed with authentic flavors and goodness.Experience the perfect blend of taste and nutrition, served quickly for your convenience. <b>Your satisfaction is our priority!</b>
         </p>
         <p className="font-inter text-white my-[20px] pl-5 md:pl-[59px] px-5 ">
-          ✔ Lacus nisi, et ac dapibus sit eu velit in consequat.
+          ✔ We ensure all our meals meet the highest halal standards, offering you peace of mind with every bite
         </p>
         <p className="font-inter text-white my-[20px] pl-5 md:pl-[59px] px-5">
-          ✔ Quisque diam pellentesque bibendum non dui volutpat fringilla
+          ✔ Our dishes are made with fresh ingredients, prioritizing your health and well-being without compromising on taste.
         </p>
         <p className="font-inter text-white my-[20px] pl-5 md:pl-[59px] px-5">
-          ✔ Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          ✔ Enjoy delicious, high-quality food served promptly to fit your busy lifestyle.
         </p>
-        <Link href="/about">
+        <Link href="/pages/about">
           <button className="rounded-[30px] md:h-[60px] h-[50px] pl-5 md:ml-[64px] px-5 mx-4 w-[160px] md:w-[180px] text-[#FFFFFF] bg-[#FF9F0D]">
             Read More
           </button>
