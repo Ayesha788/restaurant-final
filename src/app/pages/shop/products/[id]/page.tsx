@@ -137,7 +137,6 @@ const ProductPage = ({ params }: { params: { id: string } }) => {
           {product.originalPrice && (
             <p className="line-through text-gray-500">RS: {product.originalPrice}</p>
           )}
-
           <p
             className={`${
               product.available ? "text-green-500" : "text-red-500"

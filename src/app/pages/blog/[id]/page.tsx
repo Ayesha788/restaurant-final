@@ -49,19 +49,13 @@ export default async function BlogDetail({
           {/* Blog Image */}
           <div className="flex items-center justify-center">
             <Image
-              src={blog.image || "/fallback-image.jpg"}
+              src={blog.image}
               alt={blog.title}
               width={500}
               height={384}
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
-            <Image
-              src={blog.image || "/fallback-image.jpg"}
-              alt={blog.title}
-              width={800}
-              height={384}
-              className="w-full h-96 object-cover rounded-lg shadow-lg" // Styling class
-            />
+            
           </div>
         </div>
 

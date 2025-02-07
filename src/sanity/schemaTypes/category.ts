@@ -10,7 +10,7 @@ export default {
       title: 'Category Name',
       type: 'string',
       description: 'Name of the food category (e.g., Appetizers, Desserts, Beverages).',
-      validation: (rule: Rule) => rule.required().min(3).max(50), // TypeScript enforces type safety here
+      validation: (rule: Rule) => rule.required().min(3).max(50),
     },
     
     {
@@ -19,7 +19,7 @@ export default {
       type: 'image',
       description: 'An optional image representing this food category.',
       options: {
-        hotspot: true, // Enables hotspot for better cropping
+        hotspot: true, 
       },
     },
     {

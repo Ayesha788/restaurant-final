@@ -21,7 +21,7 @@ type Category = {
 };
 
 const FoodCategory1 = () => {
-  // Set the state type to Category[]
+  
   const [categories, setCategories] = useState<Category[]>([]);
 
   useEffect(() => {

@@ -85,7 +85,7 @@ const Menu = () => {
                     <div
                       key={itemIndex}
                       className="flex justify-between items-center border-b pb-4 hover:shadow-md hover:rounded-lg p-4 transition-shadow duration-300"
-                    ><Link href={`/pages/products/${item.id}`}>
+                    ><Link href={`/pages/shop/products/${item.id}`}>
                       <div>
                         <h3 className="text-xl font-semibold text-gray-800">{item.name}</h3>
                         <p className="text-sm text-gray-600 mt-1">{item.description}</p>

@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { IoIosSearch } from "react-icons/io";
-import { LuUserRound } from "react-icons/lu";
 import { FaSlidersH } from "react-icons/fa";  // Using react-icons' FaSlidersH icon
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // use usePathname for Next.js 14
@@ -47,10 +45,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex gap-3">
-          <IoIosSearch size={20} />
-          <Link href="/contact-us/signup">
-            <LuUserRound size={20} />
-          </Link>
+          
           
           {/* Sliders Icon for settings */}
           <button
