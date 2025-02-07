@@ -68,18 +68,18 @@ const Footer = async () => {
         <div className="w-full md:w-[18%] hidden md:block mb-8 md:mb-0">
           <h2 className="font-bold text-[16px] md:text-[18px] text-[#FFFFFF] mb-4">Useful Links</h2>
           <ul className="space-y-2">
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/about">About</Link></li>  
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/signin">Contact</Link></li>
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/blog">Blogs</Link></li>
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="chef">Team</Link></li>
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/pages/about">About</Link></li>  
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/pages/signin">Contact</Link></li>
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/pages/blog">Blogs</Link></li>
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"><Link href="/pages/chef">Team</Link></li>
                   </ul>
         </div>
         <div className="w-full md:w-[18%] hidden md:block mb-8 md:mb-0">
           <h2 className="font-bold text-[16px] md:text-[18px] text-[#FFFFFF] mb-4">Help?</h2>
           <ul className="space-y-2">
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"> <Link href="/faq">FAQ</Link></li>
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"> <Link href="/blog">Posts</Link></li>
-            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"> <Link href="/shoplist">Shop</Link></li>
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"> <Link href="/pages/faq">FAQ</Link></li>
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"> <Link href="/pages/blog">Posts</Link></li>
+            <li className="font-normal text-[14px] md:text-[16px] text-[#FFFFFF]"> <Link href="/pages/shoplist">Shop</Link></li>
           </ul>
         </div>
         <div className="w-full sm:w-[45%] md:w-[35%] mb-8 md:mb-0"> 
